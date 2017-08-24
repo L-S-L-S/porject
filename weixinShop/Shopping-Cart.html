@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="no-cache,no-store,must-revalidate" http-equiv="Cache-Control">
+	<meta content="no-siteapp" http-equiv="Cache-Control"/>
+	<meta content="0" http-equiv="expires">
+	<meta content="telephone=no, address=no" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<title>微信商城 - 购物车</title>
+</head>
+<body>
+	<div class="main">
+		<!-- header -->
+		<div class="top_nav">
+        	<a class="top_left" href="index.html"><img src="images/all_p1.png"></a>
+        	<span class="f_size1_4"> 购物车 </span>
+        	<a class="top_right" href="Member-Center.html"><img src="images/all_p2.png"></a>
+		</div>
+        
+        <!-- zhanghao -->
+        <div class="zhanghao">
+        	<p class="zh_num f_size1_3">当前账号：abc</p>
+	        <p class="zh_tip f_size1_2">*请确认当前账号是否为您的购物账号。</p>
+	        <a class="zh_change f_size1_2" href="login.html">
+	        	切换<br/>
+	        	账号
+	        </a>
+	    </div>	
+		
+		<!-- list -->
+	    <ul class="carList">
+
+	    	<!-- 购物车为空时 -->
+	    	<li>
+	    		<div class="emptyList">
+		    		<img src="images/emptycart.png" alt="">
+	            	<p class="zh_tip f_size1_3">购物车是空空的哦</p>
+	            	<a class="emptyList_btn f_size1_2" href="index.html">随便逛逛</a>	
+	    		</div>	    		
+	    	</li>
+
+	    	<!-- 购物车为不为空时 -->
+			<li >
+				<div class="unEmptyList clearfloat">
+					<div class="choose em_choose">			
+						<label class="" for="check" class="">
+							<input id="check" name="items" type="checkbox" onclick="choose(this)">
+						</label>
+					</div>
+					<a href="ShoppingCart-Settlement.html">
+						<div class="unEmptyList_img" style="background-image:url(images/goods_p2.jpg);"></div>
+						<div class="unEmptyList_in">
+							<p class="f_size1_3 em_name">特级枣夹核桃</p>
+							<p class="f_size1_2 em_capacity">260g/盒</p>
+							<p class="f_size1_2 em_price">¥39.00</p>
+						</div>	
+					</a>					
+					<div class="unEmptyList_num">
+						<a class="f_size1_4" href="">+</a>
+						<input class="f_size1_3" type="text" value="1">
+						<a class="f_size1_4" href="">-</a>
+					</div>
+					<a class="colse f_size2_8" href="">×</a>
+				</div>				
+			</li>
+		</ul>
+		
+		<!-- other_goods -->
+		<div class="other_goods">
+			<div class="other_tit f_size1_3">
+				<p></p>
+				<span>购买该商品的人还买了</span>
+			</div>
+	    	<ul class="goods_list clearfloat">
+	    		<li>
+	    			<a class="f_size1_3" href="goods-details.html">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>
+	    			<p class="saleNum clearfloat f_size1_2">
+		                <span>销量:10526件</span>
+		                <a class="addCar" href=""></a>
+		            </p>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="goods-details.html">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>		    			
+	    			</a>
+	    			<p class="saleNum clearfloat f_size1_2">
+		                <span>销量:10526件</span>
+		                <a class="addCar" href=""></a>
+		            </p>	    			
+	    		</li>
+	    	</ul>
+		</div>
+
+	    <!-- footer -->
+		<div class="foot f_size1_2">
+            <p><a href="">收货须知</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">退换货详情</a></p>
+            <p>2017  Corporation 北京匠心小镇电子商务有限公司</p>
+            <p>客服电话：4008338017</p>
+            <p>京ICP备16043175号</p>
+        </div>
+
+        <div class="footer_fix clearfloat">
+        	<div class="nav clearfloat">
+	        	<div class="choose check_choose">	
+					<label id="" class="choose_sty" for="CheckedAll">
+						<input id="CheckedAll" type="checkbox" onclick="chooseAll(this)">					
+					</label>
+					<span class="choose_txt">全选</span>
+				</div>
+				<a class="checkoutBtn f_size1_3" href="ShoppingCart-Settlement.html">去结算</a>
+				<div class="allPrice">
+					<span class="f_size1_3">合计：</span>
+					<span class="Lastpric f_size1_3">¥39.00</span>
+				</div>				
+        	</div>
+        </div>
+	</div>
+
+	<!-- 回到顶部按钮 -->
+	<span class='backTop hide'><a href='#'>顶部</a></span>
+</body>
+</html>

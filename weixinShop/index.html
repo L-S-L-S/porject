@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="no-cache,no-store,must-revalidate" http-equiv="Cache-Control">
+	<meta content="no-siteapp" http-equiv="Cache-Control"/>
+	<meta content="0" http-equiv="expires">
+	<meta content="telephone=no, address=no" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<title>微信商城 - 首页</title>
+</head>
+<body>
+	<div class="main">
+		<!-- header -->
+		<header class="header">
+			<section>
+				<div class="shop_logo" style="background-image: url(images/index-top200_3.jpg);">
+					<a class="logo" href="index.html"><img src="images/logo.png" alt="店铺logo"></a>
+					<a class="logo_v"><img src="images/vrz1.png" alt=""></a>
+				</div>
+				<div class="shop_in">
+					<span class="shop_name">匠心小镇金卡会员旗舰店</span>
+					<span class="shop_number">授权编号096-02-01</span>
+				</div>
+				<div class="shop_sc">
+					<a href="">
+						<i class="sc_logo"><img src="images/sy_bg_wjx.png" alt="收藏"></i>
+						<p class="sc_text">收藏</p>
+					</a>
+				</div>				
+			</section>
+			<div class="nav">
+				<ul class="clearfloat">
+					<li>
+						<a href="index.html" class="f_size1_2">
+							<i><img src="images/zy_04.png" alt="首页"></i>
+							<span>首页</span>
+						</a>
+					</li>
+					<li>
+						<a href="all-goods.html" class="f_size1_2">
+							<i><img src="images/zy_05.png" alt="全部商品"></i>
+							<span>全部商品</span>
+						</a>
+					</li>
+					<li>
+						<a href="all-goods.html" class="f_size1_2">
+							<i><img src="images/zy_06.png" alt="新品上市"></i>
+							<span>新品上市</span>
+						</a>
+					</li>
+					<li>
+						<a href="" class="f_size1_2">
+							<i><img src="images/zy_07.png" alt="店长笔记"></i>
+							<span>店长笔记</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+	    <!-- banner -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<a href="goods-details.html"><img src="images/banner_1.jpg" alt=""></a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="all-goods.html"><img src="images/banner_1.jpg" alt=""></a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href="goods-details.html"><img src="images/banner_1.jpg" alt=""></a>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div> 
+
+	    <!-- 新品首发 -->
+	    <div class="goods">
+	    	<div class="goods_tit">
+	    		<a href="all-goods.html">
+		    		<span class="f_size1_3">新品首发</span>
+		    		<div class="more"><img src="images/zy_02.png" alt=""></div>
+	    		</a>	    		
+	    	</div>
+	    	<ul class="goods_list clearfloat">
+	    		<li>
+	    			<a class="f_size1_3" href="goods-details.html">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">1嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="goods-details.html">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">2嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="goods-details.html">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">3嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    	</ul>
+	    </div>
+
+	    <!-- 限时 -->
+	    <div class="Time_limit">
+	    	<a class="goods_img" href="">
+	    		<img src="images/goods_p3.jpg" alt="">
+	    	</a>
+	    	<div class="Time_left">
+	    		<p class="f_size1_5">小镇限时购</p>
+	    		<p class="f_size1_2 time">
+	    			<span class="time_txt">距离本场结束</span>
+					<b id="t_h"></b> :
+					<b id="t_m"></b> : 
+					<b id="t_s"></b>
+					<!-- <b id="t_ms"></b> -->
+	    		</p>
+	    	</div>	    	
+	    </div>
+	    <script type="text/javascript">
+	        // var status = 1;
+	        var setIntervalid;
+	        var EndTime = new Date('2017/5/24 10:00:00'); //截止时间
+	        var NowTime = new Date();
+	        var t = EndTime.getTime() - NowTime.getTime();
+
+	        function GetRTime() {
+
+	            var d = (Math.floor(t / 1000 / 60 / 60 / 24));
+	            var h = (Math.floor(t / 1000 / 60 / 60));
+	            var m = (Math.floor(t / 1000 / 60 % 60));
+	            var s = (Math.floor(t / 1000 % 60));
+	            var ms = (Math.floor(t % 1000));
+	            //console.log("d="+(-d)+"h="+(-h)+"m="+(-m)+"s="+(-s));
+	            //document.getElementById("t_d").innerHTML = d + "";
+
+	            if (t<0) {
+
+	                try {
+	                    clearInterval(setIntervalid);
+	                    //$(".displaynone").show();
+	                    //$(".display").hide();
+	                     h == 0; m == 0; s == 0;
+	                    //时间到 允许直接购买
+	                    //$(".addcart").attr("ischecked", "1");
+	                    document.getElementById("t_h").innerHTML = 0 + "";
+	                    document.getElementById("t_m").innerHTML = 0 + "";
+	                    document.getElementById("t_s").innerHTML = 0 + "";
+	                } catch (e) { }
+
+	            } else {
+	                try {
+	                    t = t - 1000;
+
+	                    //if (parseInt(document.getElementById("t_d").innerHTML) != d) {
+	                    //    document.getElementById("t_d").innerHTML = (d >= 10 ? "" : "0") + d;
+	                    //}
+	                    if (parseInt(document.getElementById("t_h").innerHTML) != h) {
+	                        document.getElementById("t_h").innerHTML = (h >= 10 ? "" : "0") + h;
+	                    }
+	                    if (parseInt(document.getElementById("t_m").innerHTML) != m) {
+	                        document.getElementById("t_m").innerHTML = (m >= 10 ? "" : "0") + m;
+	                    }
+	                    if (parseInt(document.getElementById("t_s").innerHTML) != s) {
+	                        document.getElementById("t_s").innerHTML = (s >= 10 ? "" : "0") + s;
+	                    }
+
+	                    //document.getElementById("t_d").innerHTML = d + "";
+	                    //document.getElementById("t_h").innerHTML = h + "";
+	                    //document.getElementById("t_m").innerHTML = m + "";
+	                    document.getElementById("t_s").innerHTML = (s >= 10 ? "" : "0") + s;
+	                    //document.getElementById("t_ms").innerHTML = ms + "";
+
+	                } catch (e) { }
+	            }
+	        }
+	        GetRTime();
+	        setIntervalid = setInterval(GetRTime, 1000);
+        </script>
+
+        <!-- 热卖商品 -->
+        <div class="goods">
+	    	<div class="goods_tit">
+	    		<a href="">
+		    		<span class="f_size1_3">热卖商品</span>
+		    		<div class="more"><img src="images/zy_02.png" alt=""></div>	
+	    		</a>	    		
+	    	</div>
+	    	<ul class="goods_list1">
+	    		<li class="clearfloat">
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<div class="list1_txt">
+			    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+			    			<p class="txt_in f_size1_2">60冲泡即食 软糯香甜</p>
+			    			<p class="goods_price">¥ 52.00</p>	
+		    			</div>	
+	    			</a>	    			
+	    		</li>
+	    		<li class="clearfloat">
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<div class="list1_txt">
+			    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+			    			<p class="txt_in f_size1_2">60冲泡即食 软糯香甜</p>
+			    			<p class="goods_price">¥ 52.00</p>	
+		    			</div>	
+	    			</a>	    			
+	    		</li>
+	    		<li class="clearfloat">
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<div class="list1_txt">
+			    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+			    			<p class="txt_in f_size1_2">60冲泡即食 软糯香甜</p>
+			    			<p class="goods_price">¥ 52.00</p>	
+		    			</div>	
+	    			</a>	    			
+	    		</li>
+	    		<li class="clearfloat">
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<div class="list1_txt">
+			    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+			    			<p class="txt_in f_size1_2">60冲泡即食 软糯香甜</p>
+			    			<p class="goods_price">¥ 52.00</p>	
+		    			</div>	
+	    			</a>	    			
+	    		</li>
+	    	</ul>
+	    </div>
+
+        <!-- 健康食品系列 -->
+	    <div class="goods">
+	    	<div class="goods_tit">
+	    		<span class="f_size1_3">健康食品系列</span>	
+	    	</div>
+	    	<ul class="goods_list clearfloat">
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">1嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">2嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">3嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">4嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">4初现氨基酸皂液沐浴...</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li class="goods_more" style="background-image:url(images/more.jpg)">
+	    			<a class="goods_more_p f_size1_3" href="">
+	    				<i><img src="images/more.jpg" alt=""></i>
+		    			<p class="goods_name" style="opacity: 0">零</p>
+			    		<p class="goods_price" style="opacity: 0">0</p>
+			    		<div class="goods_more_txt f_size1_4">
+				    		<span>更多健康食品</span>
+			    			<img class="goods_more_img" src="images/zy_09.png" alt="">
+			    		</div>	
+	    			</a>    			
+	    		</li>
+	    	</ul>
+	    </div>
+
+	    <!-- 美容护肤系列 -->
+	    <div class="goods">
+	    	<div class="goods_tit">
+	    		<span class="f_size1_3">美容护肤系列</span>	
+	    	</div>
+	    	<ul class="goods_list clearfloat">
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">嗯嘛红糖姜李(2罐)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li>
+	    			<a class="f_size1_3" href="">
+		    			<i><img src="images/goods_p2.jpg" alt="嗯嘛红糖姜李(2罐)"></i>
+		    			<p class="goods_name">棘宝石斛鲜活水光眼膜dddd(2盒)</p>
+		    			<p class="goods_price">¥ 52.00</p>	
+	    			</a>	    			
+	    		</li>
+	    		<li class="goods_more" style="background-image:url(images/more.jpg)">
+	    			<a class="goods_more_p f_size1_3" href="">
+	    				<i><img src="images/more.jpg" alt=""></i>
+		    			<p class="goods_name" style="opacity: 0">零</p>
+			    		<p class="goods_price" style="opacity: 0">0</p>
+			    		<div class="goods_more_txt f_size1_4">
+				    		<span>更多美容护肤</span>
+			    			<img class="goods_more_img" src="images/zy_09.png" alt="">
+			    		</div>	
+	    			</a>    			
+	    		</li>
+	    	</ul>
+	    </div>
+
+	    <!-- footer -->
+	    <div class="foot_btn clearfloat">
+            <a class="f_size1_2" href="">个人护理</a>
+            <a class="f_size1_2" href="">美容护肤</a>
+            <a class="f_size1_2" href="">健康食品</a>
+            <a class="f_size1_2" href="">安全清洁</a>
+            <a class="f_size1_2" href="">家庭养生</a>
+            <a class="f_size1_2" href="">餐厨用品</a>
+        </div>
+		
+        <div class="foot f_size1_2">
+            <p><a href="">收货须知</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">退换货详情</a></p>
+            <p>2017  Corporation 北京匠心小镇电子商务有限公司</p>
+            <p>客服电话：4008338017</p>
+            <p>京ICP备16043175号</p>
+        </div>
+
+        <div class="footer_fix">
+        	<div class="nav">
+	        	<ul class="clearfloat">
+					<li>
+						<a href="index.html" class="f_size1_2">
+							<i><img src="images/zy_04.png" alt="首页"></i>
+							<span>首页</span>
+						</a>
+					</li>
+					<li>
+						<a href="search-goods.html" class="f_size1_2">
+							<i><img src="images/zy_03_1.png" alt="商品搜索"></i>
+							<span>商品搜索</span>
+						</a>
+					</li>
+					<li>
+						<a href="Member-Center.html" class="f_size1_2">
+							<i><img src="images/zy_03_2.png" alt="会员中心"></i>
+							<span>会员中心</span>
+						</a>
+					</li>
+					<li>
+						<a href="Shopping-Cart.html" class="f_size1_2">
+							<i><img src="images/zy_03_3.png" alt="购物车"></i>
+							<span>购物车</span>
+						</a>
+					</li>
+				</ul>	
+        	</div>
+        </div>
+	</div>
+
+	<!-- 回到顶部按钮 -->
+	<span class='backTop hide'><a href='#'>顶部</a></span>
+</body>
+<!-- banner -->
+<script src="js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    spaceBetween: 30,
+    loop : true,
+    autoplay: 3000,
+    autoplayDisableOnInteraction: false
+});
+</script>
+</html>

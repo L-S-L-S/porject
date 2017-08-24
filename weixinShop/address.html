@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="no-cache,no-store,must-revalidate" http-equiv="Cache-Control">
+	<meta content="no-siteapp" http-equiv="Cache-Control"/>
+	<meta content="0" http-equiv="expires">
+	<meta content="telephone=no, address=no" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<title>微信商城 - 地址管理</title>
+</head>
+<body>
+	<div class="main">
+		<!-- header -->
+		<div class="top_nav">
+        	<a class="top_left" href="index.html"><img src="images/all_p1.png"></a>
+        	<span class="f_size1_4"> 地址管理 </span>
+        	<a class="top_right" href="Member-Center.html"><img src="images/all_p2.png"></a>
+		</div>
+        
+        <!-- order_search -->
+		<div class="search or_search">
+	    	<input class="f_size1_2" type="text" placeholder="输入地址" style="font-size: 14px;">
+	    	<a class="search_btn or_search_btn" href=""><img src="images/search1.png" alt=""></a>
+	    </div>
+
+	    <!-- order_list -->
+	    <div class="order_center">
+			<ul class="order_list f_size1_2">
+				<!-- 无数据 -->
+				<li class="no_order">暂时没有相关数据...</li>
+
+				<!-- 有数据 -->
+	    		<li>
+					<div class="Buyers_in f_size1_2 clearfloat">					
+						<div class="vd_mzlx float_l">
+                            <span class="vd_mzlxyb">收货人：ABC&nbsp;&nbsp;联系方式：18819493829</span>
+                            <p>地址：广州天河区的点点滴滴多多多多多的点点滴滴多多多多多</p>            
+                        </div>
+                        <div class="vd_dizhimr">
+                        	<span class="vd_mrdz">
+	                        	<label class="">
+									<input checked="checked" type="checkbox" onclick="choose(this)">
+								</label>	
+                        	</span>
+                        </div>
+                        <div class="vd_dizhibj">
+                            <a href="add-address.html" class="f_size1_3">编辑</a>
+                            <a href="" class="vd_address_fmr "><img src="images/address_06_1.png"></a>
+                            <a href="" class="vd_address_sc"><img src="images/gwc-sc1.jpg"></a>
+                        </div>
+					</div>	    			
+	    		</li>
+	    		<li>
+					<div class="Buyers_in f_size1_2 clearfloat">					
+						<div class="vd_mzlx float_l">
+                            <span class="vd_mzlxyb">收货人：ABC&nbsp;&nbsp;联系方式：18819493829</span>
+                            <p>地址：广州天河区的点点滴滴多多多</p>            
+                        </div>
+                        <div class="vd_dizhimr">
+                        	<span class="vd_mrdz">
+	                        	<label >
+									<input type="checkbox" onclick="choose(this)">
+								</label>	
+                        	</span>
+                        </div>
+                        <div class="vd_dizhibj">
+                            <a href="add-address.html" class="f_size1_3">编辑</a>
+                            <a href="" class="vd_address_fmr "><img src="images/address_06_1.png"></a>
+                            <a href="" class="vd_address_sc"><img src="images/gwc-sc1.jpg"></a>
+                        </div>
+					</div>	    			
+	    		</li>
+
+	    		<!-- 分页 -->
+	    		<li class="no_order">
+	    			共2条 2/1页
+	    		</li>
+			</ul>
+	    </div>
+
+	    <!-- footer -->
+		<div class="foot f_size1_2">
+            <p><a href="">收货须知</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">退换货详情</a></p>
+            <p>2017  Corporation 北京匠心小镇电子商务有限公司</p>
+            <p>客服电话：4008338017</p>
+            <p>京ICP备16043175号</p>
+        </div>
+
+        <div class="footer_fix">
+        	<div class="nav clearfloat">
+				<a class="address_btn checkoutBtn f_size1_3" href="add-address.html">新增收货地址</a>
+				<a style="background-color:#ff9402;margin-right: 3%;" class="address_btn checkoutBtn f_size1_3" href="ShoppingCart-Settlement.html">下一步</a>
+        	</div>
+        </div>
+	</div>
+
+	<!-- 回到顶部按钮 -->
+	<span class='backTop hide'><a href='#'>顶部</a></span>
+</body>
+</html>
