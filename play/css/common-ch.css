@@ -1,0 +1,138 @@
+*{margin:0;padding: 0;}
+html,body{width:100%;margin:0;padding:0;font-size:10px;-webkit-overflow-scrolling: touch;}
+body,a{font-family: "Microsoft Yahei","微软雅黑","宋体",Tahoma,Arial,Helvetica,STHeiti; margin: 0 auto;}
+a{text-decoration: none;color: #666;}
+ul{list-style: none;}
+img{border: 0;vertical-align: top;}
+select,input,option,textarea{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance: none;
+	border: 0;
+	outline: none;
+	background-color: #fff;
+}
+select:focus,input:focus{outline: none;}
+
+.clear{clear:both;}
+.index_bg{background: #efefef;}
+.hide{display: none;}
+
+/*nav*/
+.my_nav{
+	width:100%;
+	background: #fff;
+	padding:3% 0;
+}
+.my_nav_top1{
+	/*float: left;*/
+	width: 22%;
+	margin-left: 3%;
+	color:#d84647;	
+	background: url(../img/logo14.png) no-repeat right center;
+	background-size: 30% auto;
+	        box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.my_nav_top2{
+	width:61%;
+	display: inline-block;
+	margin:0 1%;
+	position: relative;
+	color: #efefef;
+}
+.my_nav_top2 a{color: #999;}
+.my_nav_search{
+	width: 100%;
+	padding: 3% 20%;
+	background: #efefef;
+	border-radius: 5px;
+	        box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	color: #999;
+}
+.nav_btnSty{
+	position: absolute;
+	left: 10%;
+	top:20%;
+}
+.my_nav_top1 img,.my_nav_top2 img,.menu_logo img,.sum_logo img{
+	width:100%;
+	height:auto;
+}
+.my_nav_top3{
+	display: inline-block;
+	margin-right: 3%;
+}
+/*banner style*/
+.header_style {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.banner{
+	position:absolute;
+
+}
+.banner li{ 
+	list-style:none;
+	float:left;
+	position:relative;
+	border:0;
+}
+.banner li img{
+	width:100%;	
+}
+.banner li div{position:absolute;overflow:hidden;}
+
+.header_style .btn{
+	position:absolute;
+	width:auto;
+	height:12px;
+	right:50%;
+	bottom:3%;
+	z-index:99;
+} 
+
+.header_style .btn span{
+	display:inline-block;
+	_display:inline;
+	_zoom:1;
+	width:10px;
+	height:10px;
+	margin-left:5px;
+	cursor:pointer;
+	border-radius:12px;
+	border: 1px solid rgba(255,255,255,0.6);
+	margin:0 7px; 
+	background: #cccdc3;
+}
+.btn_active{
+	background: #d84647 !important;
+}
+
+
+
+
+
+.f_verMiddle{vertical-align: middle;}
+.f_colorRed{color: #d84647 !important;}
+.f_colorW{color: #fff;} 
+
+@font-face {
+  font-family: 'iconfont_play';  /* project id 224838 */
+  src: url('http://at.alicdn.com/t/font_zadwlnifqglm1jor.eot');
+  src: url('http://at.alicdn.com/t/font_zadwlnifqglm1jor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_zadwlnifqglm1jor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_zadwlnifqglm1jor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_zadwlnifqglm1jor.svg#iconfont_play') format('svg');
+}
+.iconfont_play{
+    font-family:"iconfont_play" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
