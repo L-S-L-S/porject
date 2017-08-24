@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/banner.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/banner.js"></script>
+	
+	<title>租车网-车型展示</title>
+</head>
+<body>
+
+<!-- navigation star -->
+<div class="navigation">
+	<a class="nav_logo" href="index.html"><img src="images/nav_logo.png" alt="" /></a>
+	<ul>
+		<li><a href="index.html">首页</a></li>
+		<li><a href="about.html">关于我们</a></li>
+		<li><a href="news.html">新闻资讯</a></li>
+		<li><a href="carShow.html" class="nav_active">车型展示</a></li>
+		<li><a href="carPrice.html">车型报价</a></li>
+		<li><a href="shuttle.html">接机送机</a></li>
+		<li><a href="notice.html">租车须知</a></li>
+		<li><a href="specialService.html">特色服务</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+	</ul>
+	<p class="nav_tel "><span class="iconfont_zu icon_ver f_16">&#xe630; </span>020-89448845</p>
+	<div class="clear"></div>
+</div>
+<!-- navigation end -->
+
+<!-- banner -->
+<script type="text/javascript">
+	$(function(){
+		function bannerHeight(){
+			var sWidth = $(window).width();
+			var bi = 525 / 1440;
+			var bannerH = sWidth * bi;
+			$('.header_style').height(bannerH);
+			$('.banner li img').width(sWidth);	
+		}
+		bannerHeight();
+		// $(window).resize(function() {
+		// 	bannerHeight();
+		// });
+	})
+</script>
+<div class="header_style" id="focus">
+	<ul class="banner" >
+		<li><img src="images/banner_p1.png" alt=""></li>
+		<li><img src="images/banner_p2.png" alt=""></li>
+		<li><img src="images/banner_p3.png" alt=""></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+
+<!-- content -->
+<div class="con_pic">
+	<div class="carType f_16 news_pic">
+		<div class="carTypePic"><span class="iconfont_zu carTypePicIcon">&#xe6e9; </span>车型展示&nbsp&nbsp&nbsp&nbsp<span class="f_color999">CAR SHOW</span></div>
+		<ul class="carShowL">
+			<li>
+				<p class="carShowL_tit carShow_active"><span></span>+ 上海租车 <span class="f_color999 carShow_active">Chartered Shanghai</span></p>
+				<ul class="carShowL_list">
+					<li class="carShow_active">别克</li>
+					<li>福特全顺</li>
+					<li>考斯特</li>
+					<li>奔驰</li>
+					<li>金杯</li>
+				</ul>
+			</li>
+			<li>
+				<p class="carShowL_tit"><span></span>+ 班车租赁 <span class="f_color999">Train lease</span></p>
+				<ul class="carShowL_list">
+					<li>别克商务</li>
+					<li>奔驰</li>
+					<li>全顺系列</li>
+					<li>考斯特系列</li>
+				</ul>
+			</li>
+			<li>
+				<p class="carShowL_tit"><span></span>+ 商务租车 <span class="f_color999">CarRental Business</span></p>
+				<ul class="carShowL_list">
+					<li>奔驰</li>
+					<li>宝马</li>
+					<li>奥迪</li>
+					<li>别克</li>
+					<li>帕萨特</li>
+				</ul>
+			</li>
+			<li>
+				<p class="carShowL_tit"><span></span>+ 旅游租车 <span class="f_color999">TravelCar Rental</span></p>
+				<ul class="carShowL_list">
+					<li>别克系列</li>
+					<li>奔驰系列</li>
+					<li>福特全顺</li>
+					<li>考斯特</li>
+					<li>大巴系列</li>
+				</ul>
+			</li>
+			<li>
+				<p class="carShowL_tit"><span></span>+ 涉外包车 <span class="f_color999">Foreign-chartered</span></p>
+				<ul class="carShowL_list">
+					<li>别克商务</li>
+					<li>福特全顺</li>
+					<li>考斯特</li>
+					<li>大巴</li>
+				</ul>
+			</li>
+		</ul>
+	</div>	
+
+	<!-- 车型展示列表 -->
+	<div class="recommend" id="carShow">
+		<div class="recommendTit f_colorOr">		
+			<span class="about_profileR iconfont_zu">&#xe69a;</span> 上海租车 · 别克 · 别克商务Gl8新款
+			<span class="about_profileRR">首页 > 车型展示 > 上海租车 > 别克 > 别克商务Gl8新款</span>
+			<div class="clear"></div>
+		</div>
+		<div class="recommendList ">
+			<div class="carShow_details_listImg"><img src="images/img_carShow/carShow_p1.png" alt="" /></div>
+			<div class="carShow_listTxt">
+				<p><span>别克商务Gl8新款</span><span class="f_color666">商务车系列</span></p>
+				<p><span class="f_color666">租车类型：代驾/自驾</span><span class="f_color666">参考价：<span class="f_colorRed">1000元</span></span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+	<div class="footer_conTop">
+		<span>友情链接：</span>
+		<a href="">广州租车</a>
+		<a href="">广州包车</a>
+		<a href="">广州班车</a>
+		<a href="">广州长包车</a>
+		<a href="">广州短包车</a>
+		<a href="">汽车租赁网</a>
+		<a href="">广州旅游大巴车</a>
+		<a href="">考斯特租赁</a>
+		<a href="">涉外包车 </a>
+		<a href="">租车接机送机</a>
+		<a href="">关于达喀尔</a>
+		<a href="">新闻资讯</a>
+		<a href="">车型展示</a>
+		<a href="">车型报价</a>
+		<a href="">接机送机</a>
+		<a href="">租车须知</a>
+		<a href="">特色服务</a>
+		<a href="">联系我们</a>　　
+	</div>	
+	<div class="footer_conBot">
+		<p class="footer_conBotL">CopyRight © 2010-2016 广州达喀尔汽车租赁有限公司 订车热线：020-89448845</p>		
+		<p class="footer_conBotR">邮箱： gzaxcar@163.com 沪ICP备15011102号 All rights reserved 技术支持：广州市时创信息科技有限公司</p>
+		<div class="clear"></div>
+	</div>
+</div>
+
+
+</body>
+</html>
