@@ -1,0 +1,331 @@
+.marT{margin-top: 3%}
+
+/*banner*/
+.swiper-container,.swiper-container img{
+	width:100%;
+}
+
+/* content */
+.work_content{
+	width:100%;
+	background: #f2f2f2;
+	padding-bottom: 20%;
+}
+.work_pic{
+	background: #fff;
+	margin-bottom: 5%;
+	color: #505050;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.work_pic:last-child{margin-bottom:0;}
+.work_title{
+	padding:3% 0 3% 3%;
+	color: #000;
+	border-bottom: 1px solid #e4e4e4;
+	font-weight: bold;
+}
+.work_pic li{
+	width:25%;
+	list-style: none;
+	float: left;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+	padding: 5% 0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.work_pic li:nth-child(4n){border-right:0;}
+.work_pic li>a{display:block;color: #505050;}
+.work_pic li a>img{
+	width:30%;
+	padding-bottom: 5%
+}
+
+
+
+/* 设置页面 */
+.s_main{
+	width:100%;
+	height:100%;
+	background: #eff2f0;
+}
+.meunHead{
+	width:100%;
+	padding: 5% 0;
+	text-align: center;
+	background: #00a4c5;
+	color: #fff;
+}
+.meunHead a{color: #fff;}
+.meunHead_img{
+	width:30%;
+	border-radius:50%;	
+	border:5px solid #008dab;
+}
+.s_title{padding-bottom: 3%;}
+.s_text{padding:3% 0 1.5%;}
+.s_add{
+	width:4.7%;
+	vertical-align: text-bottom;
+}
+
+.s_meun{
+	background: #fff;
+	margin-top: 3%;
+	color: #666;
+}
+.s_meun li{
+	padding: 3% 12% 3% 0;	
+	background: url(../images/w_logo_r2.png) no-repeat;
+	background-size:3.7% auto;
+	background-position:  95% center;
+	border-bottom: 1px solid #e6e6e6;
+}
+.s_meun li img{
+	width:7%;
+	padding:0 5%;
+	vertical-align: middle;
+}
+.s_meun a{display:block;color: #666;}
+.s_meun_r{float: right;color:#999;}
+
+/* 通知页面 */
+.n_main{
+	width:100%;
+	min-height: 100%;
+	background: #eff2f0;
+}
+.n_heade{background: #0099cc}
+.n_content{
+	margin-top: 3%;
+	background: #fff;
+}
+.n_content li{
+	margin:0 4%;
+	padding:7% 0;
+	border-bottom:1px solid #ebebeb;
+	zoom:1;
+	position: relative;
+}
+.n_content li:after{
+	display:block;
+	content:" ";
+	height:0;
+	visibility: hidden;
+	clear: both;
+}
+.n_content li a{display: block;}
+.notice_img{
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	margin-right: 3%;
+}
+.notice_text{
+	float: left;	
+}
+.notice_text p:first-child{
+	position: absolute;
+	top:23%;
+	left: 38%;	
+	color: #333;
+}
+.notice_text p:nth-child(2){
+	position: absolute;
+	bottom:23%;
+	left: 38%;	
+	color: #999;
+}
+
+
+/*规划计划*/
+.g_search{
+	width:100%;
+	padding:5% 3%;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.g_search input{
+	vertical-align: top;
+	float: left;
+	width:70%;
+	color: #999;
+	border:1px solid #bfbfbf;
+	background:url(../images/logo_search1.png) no-repeat #fff;
+	background-size: 5.5% auto;
+	background-position: 3% center; 
+	border-radius: 5px 0 0 5px;
+	padding:1.5% 3% 1.5% 8.5%;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.g_search select{
+	vertical-align: top;
+	float: left;
+	width:30%;
+	color: #999;
+	background: #fff;
+	border:1px solid #bfbfbf;
+	padding:1.215% 3%;
+	border-radius: 0 5px 5px 0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.g_content{
+	width:100%;
+	background: #fff;
+	padding-bottom: 5%
+}
+.g_content li a{
+	display: block;
+	width:96%;
+	padding: 5% 9% 5% 0;
+	color: #333;
+	margin-left:4%;
+	background: url(../images/w_logo_r3.png) no-repeat;
+	background-size: 2% auto;
+    background-position: 95% center;
+    border-bottom: 1px solid #cacacc;
+    -webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.g_hTitle{
+	width:100%;
+	color:#0099cc;
+	padding: 5%;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.g_h_content{
+	width:100%;
+	background: #fff;
+	padding-bottom: 5%
+}
+.g_h_content li{
+	width:95%;
+	padding: 5% 5% 5% 0;
+	color: #333;
+	margin-left:5%;
+    border-bottom: 1px solid #cacacc;
+    -webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+    zoom:1;
+}
+.g_h_content li:after{display:block;content:" ";height:0;visibility: hidden;clear: both;}
+.g_h_content li span:nth-child(1){
+	float: left;
+	color: #333;
+}
+.g_h_content li span:nth-child(2){
+	float: right;
+	color: #999;
+}
+
+/* 我的工作 */
+.tapMeun{
+	width:100%;
+	background: #fff;
+	padding:4% 0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.tapMeun li{
+	width:50%;
+	padding: 1% 0;
+	float: left;
+	text-align: center;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.tapMeun li:nth-child(1){
+	border-right: 1px solid #a5a6a7;
+}
+.tapMeun li.active{
+	color: #0099cc
+}
+.gg_content{
+	background: #fff;
+	padding: 0 5% 5% 5%;
+}
+.gg_content li>a{
+	display: block;
+	padding-top:5%;
+	padding-bottom:5%;
+	border-bottom:1px solid #ebebeb;
+}
+.gg_content li>a p{
+	width:100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.gg_txt,.gg_time{
+	color: #bbb;
+}
+.gg_txt{
+	margin:1% 0 6%;
+}
+
+
+/* 建设项目 */
+	/* 项目进度月报表查询 */
+.pr_content{
+	width:100%;
+	background: #fff;
+	margin:5% 0;
+}
+.pr_content li{
+	width:96%;
+	padding: 5% 9% 5% 0;
+	margin-left:4%;
+	background: url(../images/w_logo_r3.png) no-repeat;
+	background-size: 2% auto;
+    background-position: 95% center;
+    border-bottom: 1px solid #ebebeb;
+    -webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pr_content li:last-child{
+	border-bottom: 0;
+}
+.pr_content span{
+	margin-right: 6%;
+}
+.pr_content input{
+	width:70%;
+	border:0;
+	outline: none;
+	background: #fff;
+	vertical-align: middle;
+}
+.pr_btn{
+	display: block;
+	width:90%;
+	padding: 5% 0;
+	color: #fff;
+	margin:15% auto 0;
+	text-align: center;
+	background: #0099cc;
+	border-radius: 5px;
+}

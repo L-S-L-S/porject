@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="no-cache,no-store,must-revalidate" http-equiv="Cache-Control">
+	<meta content="no-siteapp" http-equiv="Cache-Control"/>
+	<meta content="0" http-equiv="expires">
+	<meta content="telephone=no, address=no" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/work.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<!-- banner -->
+	<script src="js/swiper.min.js"></script>
+	<title>首页</title>
+</head>
+
+<body>
+	<div class="main">
+	    <!-- banner -->
+	    <div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<a href=""><img src="images/u_banner1.png" alt=""></a>
+	            </div>
+	            <div class="swiper-slide">
+	            	<a href=""><img src="images/u_banner2.png" alt=""></a>
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <!-- banner -->
+		<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    paginationClickable: true,
+		    spaceBetween: 30,
+		    loop : true,
+		    autoplay: 3000,
+		    autoplayDisableOnInteraction: false
+		});
+		</script> 
+		<div class="work_content f_size1_3">
+			<!-- 我的工作 -->
+			<div class="work_pic">
+				<p class="work_title f_size1_4">我的工作</p>
+				<ul class="clearfloat">
+					<li>
+						<a href="work_myWork.html">
+							<img src="images/u_logo1.png" alt="">
+							<p>待办事项</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo2.png" alt="">
+							<p>通知公告</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo3.png" alt="">
+							<p>会议通知</p>	
+						</a>						
+					</li>
+				</ul>
+			</div>
+			<!-- 规划计划 -->
+			<div class="work_pic">
+				<p class="work_title f_size1_4">规划计划</p>
+				<ul class="clearfloat">
+					<li>
+						<a href="">
+							<img src="images/u_logo4.png" alt="">
+							<p>规划</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo5.png" alt="">
+							<p>计划项目</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo6.png" alt="">
+							<p>计划汇总</p>	
+						</a>						
+					</li>
+				</ul>
+			</div>
+			<!-- 建设项目 -->
+			<div class="work_pic">
+				<p class="work_title f_size1_4">建设项目</p>
+				<ul class="clearfloat">
+					<li>
+						<a href="">
+							<img src="images/u_logo7.png" alt="">
+							<p>建设项目</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo8.png" alt="">
+							<p>建设进度</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo9.png" alt="">
+							<p>综合查询</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo10.png" alt="">
+							<p>项目巡查</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo11.png" alt="">
+							<p>项目报表</p>	
+						</a>						
+					</li>
+				</ul>
+			</div>
+			<!-- 住房保障 -->
+			<div class="work_pic">
+				<p class="work_title f_size1_4">住房保障</p>
+				<ul class="clearfloat">
+					<li>
+						<a href="">
+							<img src="images/u_logo12.png" alt="">
+							<p>准入登记</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo13.png" alt="">
+							<p>配给管理</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo14.png" alt="">
+							<p>配后管理</p>	
+						</a>						
+					</li>
+					<li>
+						<a href="">
+							<img src="images/u_logo9.png" alt="">
+							<p>综合查询</p>	
+						</a>						
+					</li>					
+				</ul>
+			</div>
+		</div>
+		
+		<!-- footer -->
+		<div class="footer_fix f_size1_3">
+			<ul class="clearfloat">
+				<li>
+					<a class="active" href="work_index.html">
+						<p class="iconfont_app f_size2_0">&#xe602;</p>
+						<p>首页</p>	
+					</a>					
+				</li>
+				<li>
+					<a href="work_notice.html">
+						<p class="iconfont_app f_size2_0">&#xe67c;</p>
+						<p>通知</p>	
+					</a>					
+				</li>
+				<li>
+					<a  href="work_setter.html">
+						<p class="iconfont_app f_size2_0">&#xe695;</p>
+						<p>设置</p>	
+					</a>					
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+
+</html>

@@ -1,0 +1,110 @@
+
+.main{
+	width:100%;
+	height:100%;
+	background: url(../images/w_bg.png) no-repeat #fff;
+	background-size: 100% auto;
+	position: relative;
+	z-index: 10;
+	transition: transform .5s;
+}
+
+
+/* content */
+.content{
+	width:100%;	
+}
+.left,.right{
+	width:49.3%;
+	height:100%;
+	position: relative;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	   		box-sizing:border-box;
+}
+.left{float: left;}
+.right{	float: right;}
+.juzhong_l,.juzhong_r{	
+	width:89%;
+	position: absolute;	
+	top:50%;
+	-webkit-transform:translateY(-50%);
+			transform:translateY(-50%);
+}
+.juzhong_l{right:0;}
+.juzhong_r{left:0;}
+
+.pic{
+	width:100%;
+	color: #fff;
+	padding: 11% 0;
+	text-align: center;
+}
+.pic a{color: #fff;}
+.pic:nth-child(2){margin: 3% 0;}
+.color1{background-color: #9acf70;}
+.color2{background-color: #4fd5e9;}
+.color3{background-color: #5c9beb;}
+.color4{background-color: #f78292;}
+.color5{background-color: #f7b239;}
+.color6{background-color: #037bb8;}
+
+/* leftMeun */
+.leftMeun{
+	width:80%;
+	height:100%;
+	overflow: hidden;
+	background: url(../images/w_my_bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+}
+.leftMeun a{color:#fff;}
+.meunHead{
+	width:100%;
+	padding: 16% 0;
+	text-align: center;
+}
+.meunHead_img{
+	width:30%;
+	border-radius:50%;	
+}
+.meunHead p{margin-top:3%;}
+.meunC li{
+	margin-left: 14.523%;
+	padding: 5% 12% 5% 0;
+	background: url(../images/w_logo_r1.png) no-repeat;
+	background-size:3.7% auto;
+	background-position:  95% center;
+	border-bottom: 1px solid #19abe0;
+}
+.meunC li img{
+	width:7%;
+	padding:0 5%;
+	margin-left: -17%;
+	vertical-align: middle;
+}
+.meunC li a{display: block;}
+.meunC_r{float: right;}
+.return{
+	display: block;
+	width:100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+.return img{
+	width:7%;
+	padding:3%;
+	vertical-align: middle;
+}
+.click{transform: translateX(80%);}
+
+/*Animate content area to the right*/
+/*#tm:checked ~ section {transform: translateX(150px);}*/
+/*Animate links from right to left + fade in effect*/
+/*#tm:checked ~ .sidenav b {opacity: 1; transform: translateX(0);}   */
