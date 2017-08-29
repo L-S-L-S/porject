@@ -606,7 +606,7 @@ body{
     white-space: nowrap;
 }
 .unEmptyList_num{
-	width: 23%;
+	width: 25.6%;
 	position: absolute;
 	top:68%;
 	right: 3%;
@@ -1384,7 +1384,7 @@ body{
 	color: #fff;
 }
 .de_add_shop{
-	width:28.289% !important;
+	width:28.2% !important;
 	padding: 4.471% 0 !important;	
 	border: 0 !important;
 }
@@ -1536,4 +1536,23 @@ body{
     text-align: center;
     background: #e2e2e2;
     padding: 3% 2%;
+}
+
+
+
+.y_price_tit{
+	margin:0 -2%;
+	padding:0 2% 2%;
+}
+.y_price_li{
+	position: relative;
+	display: block;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 3%;
+}
+.y_price{
+	position: absolute;
+	top:3%;
+	left: 55%;
 }
