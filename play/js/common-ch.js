@@ -107,4 +107,6 @@ $(function(){
 
     var btnW = $(".header_style .btn").width();
     $(".header_style .btn").css("margin-right",-btnW/2);
+
+    alert($(window).width() " + " $(window).height())
 })
