@@ -26,7 +26,7 @@ select:focus,input:focus{outline: none;}
 }
 .my_nav_top1{
 	/*float: left;*/
-	width: 22%;
+	width: 20%;
 	margin-left: 3%;
 	color:#d84647;	
 	background: url(../img/logo14.png) no-repeat right center;
